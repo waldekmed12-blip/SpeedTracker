@@ -2,6 +2,10 @@
 title = SpeedTracker
 package.name = speedtracker
 package.domain = org.speedtracker
+
+# Tutaj wskazujemy podkatalog z kodem aplikacji:
+source.dir = SpeedTracker
+
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,kivy,pyttsx3,plyer
